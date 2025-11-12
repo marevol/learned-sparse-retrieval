@@ -1,5 +1,41 @@
 # Learned Sparse Retrieval
 
+A curated collection of research papers, software implementations, and resources related to learned sparse retrieval methods for information retrieval.
+
+## Overview
+
+This repository serves as a comprehensive reference for researchers and practitioners interested in **Learned Sparse Retrieval** - a modern approach to information retrieval that combines the efficiency of traditional sparse representations (like BM25) with the effectiveness of neural language models.
+
+### What is Learned Sparse Retrieval?
+
+Learned Sparse Retrieval represents a hybrid approach in information retrieval that:
+
+- **Uses neural networks** to learn importance weights for terms in documents and queries
+- **Maintains sparse representations** compatible with inverted indexes for efficient retrieval
+- **Enables vocabulary expansion** through contextualized term importance estimation
+- **Bridges the gap** between traditional lexical matching and dense neural retrieval
+
+Key advantages include:
+- Efficiency: Compatible with existing inverted index infrastructure
+- Interpretability: Maintains explainable sparse representations
+- Effectiveness: Leverages pre-trained language models for improved retrieval quality
+- Scalability: Efficient first-stage retrieval for large document collections
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Papers](#papers)
+  - [2019](#2019)
+  - [2020](#2020)
+  - [2021](#2021)
+  - [2022](#2022)
+  - [2023](#2023)
+  - [2024](#2024)
+- [Software](#software)
+- [Datasets & Benchmarks](#datasets--benchmarks)
+- [Related Resources](#related-resources)
+- [Contributing](#contributing)
+
 ## Papers
 
 ### 2019
@@ -37,6 +73,71 @@
 
 ## Software
 
-- [SPLADE](https://github.com/naver/splade)
-- [LSR: A unified framework for efficient and effective learned sparse retrieval](https://github.com/thongnt99/learned-sparse-retrieval)
+- [SPLADE](https://github.com/naver/splade) - Official implementation of SPLADE models by Naver Labs
+- [LSR: A unified framework for efficient and effective learned sparse retrieval](https://github.com/thongnt99/learned-sparse-retrieval) - Unified framework supporting multiple learned sparse retrieval methods
 
+## Datasets & Benchmarks
+
+Commonly used datasets and benchmarks for evaluating learned sparse retrieval methods:
+
+### Information Retrieval Benchmarks
+
+- **MS MARCO** - Large-scale information retrieval datasets
+  - [MS MARCO Passage Ranking](https://microsoft.github.io/msmarco/) - Passage retrieval benchmark
+  - [MS MARCO Document Ranking](https://microsoft.github.io/msmarco/) - Document retrieval benchmark
+
+- **BEIR** - Heterogeneous benchmark for zero-shot evaluation
+  - [BEIR: A Heterogeneous Benchmark for Information Retrieval](https://github.com/beir-cellar/beir) - Evaluation across 18 diverse datasets
+
+- **TREC Collections** - Traditional IR test collections
+  - TREC Deep Learning Track
+  - TREC-COVID
+  - Robust04
+
+### Question Answering
+
+- **Natural Questions** - Open-domain question answering dataset
+- **TriviaQA** - Question answering from web snippets
+- **SQuAD** - Stanford Question Answering Dataset
+
+## Related Resources
+
+### Tutorials & Surveys
+
+- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467) - Comprehensive survey including sparse retrieval methods
+- [Neural Information Retrieval: A Literature Review](https://arxiv.org/abs/1611.06792) - Overview of neural IR approaches
+
+### Related Approaches
+
+- **Dense Retrieval**: DPR, ANCE, ColBERT, DRAGON
+- **Traditional Sparse Methods**: BM25, TF-IDF
+- **Hybrid Approaches**: Combining sparse and dense retrieval
+
+### Tools & Libraries
+
+- [Pyserini](https://github.com/castorini/pyserini) - Python toolkit for reproducible IR research (supports sparse retrieval)
+- [Anserini](https://github.com/castorini/anserini) - Lucene-based IR toolkit
+- [PyTerrier](https://github.com/terrier-org/pyterrier) - Python API for Terrier IR platform
+
+## Contributing
+
+Contributions are welcome! If you know of relevant papers, software implementations, or resources related to learned sparse retrieval, please feel free to:
+
+1. **Open an issue** with suggestions for new additions
+2. **Submit a pull request** with your proposed changes
+
+### Guidelines
+
+- Papers should be peer-reviewed or from reputable preprint archives (arXiv, etc.)
+- Include proper citations with links to papers when available
+- Organize papers chronologically by publication year
+- For software, include a brief description of what the implementation provides
+- Ensure resources are directly relevant to learned sparse retrieval methods
+
+## License
+
+This repository is maintained as an educational and research resource. Please refer to individual papers and software repositories for their respective licenses.
+
+## Contact
+
+For questions or suggestions, please open an issue in this repository.
