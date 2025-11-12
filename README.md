@@ -31,6 +31,7 @@ Key advantages include:
   - [2022](#2022)
   - [2023](#2023)
   - [2024](#2024)
+  - [2025](#2025)
 - [Software](#software)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Related Resources](#related-resources)
@@ -64,12 +65,25 @@ Key advantages include:
 
 ### 2023
 
+- Nguyen, Thong, Sean MacAvaney, and Andrew Yates. "[A Unified Framework for Learned Sparse Retrieval.](https://arxiv.org/pdf/2303.13416)" Proceedings of the 45th European Conference on Information Retrieval (ECIR). 2023.
 - Qiao, Yifan, et al. "[Optimizing Guided Traversal for Fast Learned Sparse Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3543507.3583497)" Proceedings of the ACM Web Conference 2023. 2023.
 - Kong, Weize, et al. "[Sparseembed: Learning sparse lexical representations with contextual embeddings for retrieval.](https://dl.acm.org/doi/pdf/10.1145/3539618.3592065)" Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2023.
 
 ### 2024
 
-- Lassance, Carlos, et al. "[Two-Step SPLADE: Simple, Efficient and Effective Approximation of SPLADE.](https://arxiv.org/pdf/2404.13357)" European Conference on Information Retrieval. Cham: Springer Nature Switzerland, 2024.
+- Yu, Puxuan, Antonio Mallia, and Matthias Petri. "[Improved Learned Sparse Retrieval with Corpus-Specific Vocabularies.](https://arxiv.org/pdf/2401.06703)" Proceedings of the 46th European Conference on Information Retrieval (ECIR). 2024.
+- Nguyen, Thong, Mariya Hendriksen, Andrew Yates, and Maarten de Rijke. "[Multimodal Learned Sparse Retrieval with Probabilistic Expansion Control.](https://arxiv.org/pdf/2402.17535)" Proceedings of the 46th European Conference on Information Retrieval (ECIR). 2024.
+- Lassance, Carlos, Hervé Déjean, Thibault Formal, and Stéphane Clinchant. "[SPLADE-v3: New baselines for SPLADE.](https://arxiv.org/pdf/2403.06789)" arXiv preprint arXiv:2403.06789 (2024).
+- Lassance, Carlos, et al. "[Two-Step SPLADE: Simple, Efficient and Effective Approximation of SPLADE.](https://arxiv.org/pdf/2404.13357)" Proceedings of the 46th European Conference on Information Retrieval (ECIR). 2024.
+- Bruch, Sebastian, et al. "[Efficient Inverted Indexes for Approximate Retrieval over Learned Sparse Representations.](https://arxiv.org/pdf/2404.18812)" Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2024. **Best Paper Runner-up**.
+- Basnet, Soyuj Jung, et al. "[DeeperImpact: Optimizing Sparse Learned Index Structures.](https://arxiv.org/pdf/2405.17093)" ReNeuIR Workshop at SIGIR. 2024.
+- Nguyen, Thong, et al. "[DyVo: Dynamic Vocabularies for Learned Sparse Retrieval with Entities.](https://arxiv.org/pdf/2410.07722)" Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2024.
+- Geng, Zhichao, Dongyu Ru, and Yang Yang. "[Towards Competitive Search Relevance For Inference-Free Learned Sparse Retrievers.](https://arxiv.org/pdf/2411.04403)" arXiv preprint arXiv:2411.04403 (2024).
+
+### 2025
+
+- Bruch, Sebastian, et al. "[Investigating the Scalability of Approximate Sparse Retrieval Algorithms to Massive Datasets.](https://arxiv.org/pdf/2501.11628)" Proceedings of the 47th European Conference on Information Retrieval (ECIR). 2025.
+- Xu, Zhichao, et al. "[CSPLADE: Learned Sparse Retrieval with Causal Language Models.](https://arxiv.org/pdf/2504.10816)" Proceedings of the 8th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL). 2025.
 
 ## Software
 
